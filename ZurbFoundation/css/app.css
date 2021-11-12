@@ -1,0 +1,31 @@
+body {
+  background-color: #f2f2f2;
+}
+
+nav,
+nav div.top-bar,
+nav div.top-bar ul {
+  background-color: #f2f2f2;
+}
+
+nav div.title-bar {
+  background-color: #f2f2f2;
+}
+
+nav div.title-bar > div.title-bar-title {
+  color: black;
+  padding-left: 1em;
+}
+
+.menu-icon::after {
+  /* the block itself, the first line */
+  background: #000000;
+  /* middle and bottom */
+  box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+  /* respect WebKit */
+  -webkit-box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+}
+
+main {
+  background-color: #ffffff;
+}

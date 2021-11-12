@@ -1,0 +1,12 @@
+/* For background color use the nav */
+nav {
+}
+
+/* To specify logo text color use */
+a.brand-logo {
+  padding-left: 1em;
+}
+
+/* To specify nav list items color use */
+nav ul li a {
+}
