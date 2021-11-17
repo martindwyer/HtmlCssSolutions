@@ -1,0 +1,28 @@
+{
+  "name": "bootsrap-v5",
+  "version": "1.0.0",
+  "description": "Learning Bootsrap v5 with Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootsrap",
+    "bootsrap-v5",
+    "sass",
+    "learn-bootsrap",
+    "learn-sass"
+  ],
+  "author": "Martin Dwyer",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "glightbox": "^3.1.0",
+    "postcss-cli": "^9.0.2"
+  }
+}

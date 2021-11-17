@@ -1,0 +1,40 @@
+@use '../custom'as *;
+@use '../components/mixins';
+
+.services {
+    position: relative;
+    padding: 1rem 0;
+    padding-top: 15vh;
+
+    .service-item {
+        padding: .5em 0 .5em 1em;
+    }
+
+    &__content {
+        padding: 1rem;
+        margin-top: 0rem;
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
+
+        .icon {
+            font-size: 1.5rem;
+            color: $primary;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.5rem;
+            }
+        }
+
+
+    }
+
+    &__pic {
+        img {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

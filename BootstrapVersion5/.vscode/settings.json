@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "livePreview.defaultPreviewPath": "/index.html",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "html.format.enable": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
