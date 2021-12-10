@@ -22,3 +22,7 @@ a {
 	display: block;
 	color: #FFF;
 }
+
+#Q0 {
+	visibility: hidden;
+}

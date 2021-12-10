@@ -1,5 +1,5 @@
-@use "../custom" as *;
-@use "../components/mixins" as *;
+@use "../custom"as *;
+@use "../components/mixins"as *;
 
 .footer {
   padding-top: 1rem;
@@ -9,7 +9,12 @@
     width: 60%;
     height: 3px;
     background-color: $white;
+    display: inline-block;
+    margin: .5rem auto;
   }
+
+
+
 }
 
 .contact-box {
@@ -63,8 +68,7 @@
       font-size: 2rem;
       margin: 1rem 1rem 1rem 0;
 
-      @include media-breakpoint-up(sm) {
-      }
+      @include media-breakpoint-up(sm) {}
     }
   }
 }
@@ -109,22 +113,22 @@
     }
 
     .logo-style {
-        font-family: "MuseoModerno", cursive;
-        font-size: 1.75rem;
-        font-weight: 800;
-        letter-spacing: -0.1em;
-        color: $bytes-orange;
+      font-family: "MuseoModerno", cursive;
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -0.1em;
+      color: $bytes-orange;
     }
 
     .name-style {
-        font-family: "Alegreya Sans", cursive;
-        font-size: 2em;
-        font-weight: 800;
-        color: $gray-500;
-        letter-spacing: -0.05em;
-        padding-left: .1rem;
+      font-family: "Alegreya Sans", cursive;
+      font-size: 2em;
+      font-weight: 800;
+      color: $gray-500;
+      letter-spacing: -0.05em;
+      padding-left: .1rem;
     }
-    
+
   }
 }
 
